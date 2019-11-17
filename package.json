@@ -1,36 +1,27 @@
 {
-  "name": "@wui-components/root",
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "## What is MonoRepo A monorepo is a repository consisting of multiple packages/packages which can be related but not necessary. Few of the famous monorepos are managed by Babel, Facebook, Google. Monolith !== monorepo. Monolith is huge amount of coupled code of 1 application that is hell to maintain.",
+  "main": "index.js",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "devDependencies": {
-    "@babel/preset-typescript": "^7.6.0",
-    "@open-wc/building-rollup": "^0.12.0",
-    "@open-wc/eslint-config": "^1.1.1",
-    "@open-wc/prettier-config": "^0.1.10",
-    "@open-wc/testing": "^2.3.6",
-    "@open-wc/testing-karma": "^3.1.41",
-    "@storybook/addon-knobs": "^5.2.5",
-    "@storybook/addon-notes": "^5.2.5",
-    "@storybook/html": "^5.2.5",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.5.1",
-    "husky": "^3.0.9",
-    "lerna": "^3.18.2",
-    "lint-staged": "^9.4.2",
-    "lit-element": "^2.2.1",
-    "lit-html": "^1.1.2",
-    "rimraf": "^3.0.0",
-    "rollup": "^1.25.2",
-    "rollup-plugin-typescript2": "^0.24.3",
-    "typescript": "3.7.0-beta",
-    "webpack-merge": "^4.2.2"
-  },
   "scripts": {
-    "lerna-bootstrap": "lerna bootstrap --use-workspaces",
-    "bootstrap": "yarn workspaces run install",
-    "lerna-clean": "lerna clean",
-    "build:packages": "yarn bootstrap && lerna run build:ts "
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muneerzargar/monorepo-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muneerzargar/monorepo-example/issues"
+  },
+  "homepage": "https://github.com/muneerzargar/monorepo-example#readme",
+  "devDependencies": {
+    "lerna": "^3.18.4"
   }
 }
