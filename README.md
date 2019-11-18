@@ -1,6 +1,6 @@
 # MonoRepo Example with Lerna and Yarn
 
-## MonoRepo [What](https://www.tomasvotruba.cz/blog/2019/10/28/all-you-always-wanted-to-know-about-monorepo-but-were-afraid-to-ask/) and [when](https://www.tomasvotruba.cz/blog/2018/11/19/when-you-should-use-monorepo-and-when-local-packages/)
+## MonoRepo [What](https://www.tomasvotruba.cz/blog/2019/10/28/all-you-always-wanted-to-know-about-monorepo-but-were-afraid-to-ask/) and [When](https://www.tomasvotruba.cz/blog/2018/11/19/when-you-should-use-monorepo-and-when-local-packages/)
 A monorepo is a repository consisting of multiple packages/packages which can be related but not necessary. Few of the famous monorepos are managed by Babel, Facebook, Google. Monolith !== monorepo. Monolith is huge amount of coupled code of 1 application that is hell to maintain.
 
 ## Advantages
